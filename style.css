@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: yellow;
+}
+.container{
+    width: 60vw;
+    height: 60vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: yellow;
+    font-size: 30px;
+    font-weight: 700;
+    border-radius: 10px;
+    box-shadow: -5px 5px 20px 10px rgba(0,0,0,0.2);
+    padding: 5px 10x;
+}
+
+#quotes{
+    text-align: center;
+
+}
+#author::before{
+    content: "-By";
+    margin-right: 5px;
+    
+}
+#author{
+    display: flex;
+    color: gray;
+    font-size: 20px;
+    margin-top: 5px;
+    margin-left: 20rem;
+}
+#newQ{
+    padding: 8px 10px;
+    border-radius: 8px;
+    outline: none;
+    border:none;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 20px;
+    background-color: yellow;
+
+}
+#newQ:hover{
+    background-color: rgb(210, 210, 54);
+}
